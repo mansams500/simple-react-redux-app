@@ -4,8 +4,8 @@ import "./App.css";
 
 import { Provider } from "react-redux";
 import store from "./redux/store";
-import HooksCakeContainer from "./HooksCakeContainer";
-// import CakeContainer from "./CakeContainer"
+import HooksCakeContainer from "./components/HooksCakeContainer";
+import CakeContainer from "./components/CakeContainer"
 
 function App() {
   return (
